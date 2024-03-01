@@ -7,9 +7,9 @@ import { HttpClientModule } from '@angular/common/http';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import {MatExpansionModule} from '@angular/material/expansion';
-import { MatDatepickerModule } from '@angular/material/datepicker'; // Importe o módulo do datepicker
-import { MatFormFieldModule } from '@angular/material/form-field'; // Importe o módulo do form field
-import { MatInputModule } from '@angular/material/input'; // Importe o módulo do input
+import { MatDatepickerModule } from '@angular/material/datepicker'; 
+import { MatFormFieldModule } from '@angular/material/form-field'; 
+import { MatInputModule } from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatButtonModule } from '@angular/material/button';
@@ -29,7 +29,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatPaginatorModule,
     HttpClientModule,
     MatExpansionModule,
-    MatDatepickerModule, // Adicione os módulos do Angular Material aos imports
+    MatDatepickerModule,
     MatFormFieldModule,
     MatInputModule,
     MatSidenavModule,
